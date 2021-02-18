@@ -1,0 +1,45 @@
+
+<h1 id='title'>Survey My Skills</h1>
+
+<p id='description'> Enter your info </p>
+
+<form id='survey-form'>
+  <label id='name-label'for='name'>Name:</label><br>
+  <input id='name' type='text' required placeholder='Enter full name'><br><br>
+  <label id='email-label'for='name'>Email:</label><br>
+  <input id='email' type='text' required placeholder='Enter valid email'<br>
+  <br><br>
+  <label id='number-label'for='number'>Your skill level:</label><br>
+  <input id='number' type= 'number' required min='0' max='10' placeholder='0'><br>
+  <br>
+<label for="skill level" id='dropdown'>How good am I?</label>
+
+<select name="skill level" id="skill level">
+  <option value="beginner">Beginner</option>
+  <option value="novice">Novice</option>
+  <option value="Intermediate">Intermediate</option>
+  <option value="Advanced">Advanced</option>
+</select>
+  
+  <p>Would you reccomend me?</p>
+  <input type='radio' name='select' id='yes'>
+  <label for='yes'>Yes</label><br>
+  <input type='radio' name='select' id='no'>
+  <label for='no'>No</label><br>
+  
+  <p>What kind of product would you like?</p>
+  <input type='checkboxes' id='pick1' name='pick1'value='What kind of website?'><br>
+  <label for='pick1'>Website</label><br><br>
+  <input type='checkboxes' id='pick2' name='pick2'value='What kind of App?'><br>
+  <label for='pick2'>App</label><br>
+  
+  
+  <br>
+  <br>
+  <label for='comments'>Write your feedback below:</label><br>
+  <textarea id='comments' name='comments' rows='10' columns='50'>
+  </textarea>
+  <br><br>
+  <input type='submit' value='Submit'>
+</form>
+
